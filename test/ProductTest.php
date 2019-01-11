@@ -24,7 +24,7 @@ class testFacture extends TestCase
         $lignes = [$ligne1, $ligne2, $ligne3];
         $facture = new Facture\Facture($lignes);
 
-        $this->assertEquals(6200, $facture->valeurTotale());
+        $this->assertEquals(6500, $facture->valeurTotale());
 
     }
 }
